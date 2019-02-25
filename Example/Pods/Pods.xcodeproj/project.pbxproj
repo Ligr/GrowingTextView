@@ -7,223 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		139F0EFBF31B8FB9A889DAB6E47B7755 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA8D318369E215C8CBDC9F0B7F3B919 /* GrowingTextView.swift */; };
-		192451B7AE354865F41AD4BB5C3C4A8C /* Pods-GrowingTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0937B07CD9913F192238AA966280CF43 /* Pods-GrowingTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2041ED91135EA47F86D5884833BEAFAF /* GrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D17C0FA7CE8BA204D3C41E71A397304 /* GrowingTextView-dummy.m */; };
-		36F02A1589714FCA1E834BA0CFDC10A3 /* Pods-GrowingTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D2B54406881A6CDE04C8CF015A883A /* Pods-GrowingTextView_Tests-dummy.m */; };
-		5628733A21610905CBB29941800CCBC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		951EFCD9EC021B43E4B8CC6E087C4DF8 /* Pods-GrowingTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C7EB20413D4AF9CDD6F0FCAAF44D411 /* Pods-GrowingTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965AD054BFE27042F8BEFBA75C715F96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9A78D144C49E16F7B9E942D991838142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		CF531B2B2501B39068D8001BDED5B3A9 /* GrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A23A95B489BDBFB60C33DA82FD10644 /* GrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBA12E2E45724DB01B6FA8D0CCCD5DB9 /* Pods-GrowingTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C08399B314BEF0F1473D8D58E355B9 /* Pods-GrowingTextView_Example-dummy.m */; };
+		08798AD6E421E2D92A8952C35F6C751C /* Pods-GrowingTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134494E5980F1A52C498D1C94A9B354C /* Pods-GrowingTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F8500327987A1CAF7FBD3BB634E4EF /* GrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E821A5B40972AE91884635239B93AB04 /* GrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3989B9DF69854D1C99776DF7765D7E1B /* Pods-GrowingTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D79864AAA741237A5559CD2FE5065D67 /* Pods-GrowingTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39FDF750E7BED5216B254243BC64D7DB /* Pods-GrowingTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5477C56C289C5F79B9B62874A28F0A /* Pods-GrowingTextView_Tests-dummy.m */; };
+		42C957BFD50D0F4547102AFCDC808009 /* GrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FED9FF47F23895877D4C43AB0EA35DF /* GrowingTextView-dummy.m */; };
+		4A5A6515B37317B7FDEFB5A965059A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8B9C70E39B013481B37D63F5B805438A /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024F5E367FD12B7D9004D67BCA67EE5 /* GrowingTextView.swift */; };
+		BB046B8B5B76C77C181DA03B25E9A66A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D39C1B34AF2A34C2AD299D936FCF9664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F750646BE2E5A0CE46C3E821B909650D /* Pods-GrowingTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 972CC073617F461D9A9F809EE8E379B7 /* Pods-GrowingTextView_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		087A3CF316614F79514ECFA8D6AC9AD4 /* PBXContainerItemProxy */ = {
+		3C9053446A0D64DEB9121816E58E55E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C985E23F7AB71D5F7A81CD6FCE03D15A;
+			remoteGlobalIDString = 3B7A784FCDFCE45FAD36271DDFFEBEAF;
 			remoteInfo = GrowingTextView;
 		};
-		4146DA148A6AE80DE827CB7B525AEC09 /* PBXContainerItemProxy */ = {
+		E80570B0DCB1960104F2D89F78F1E094 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C985E23F7AB71D5F7A81CD6FCE03D15A;
+			remoteGlobalIDString = 3B7A784FCDFCE45FAD36271DDFFEBEAF;
 			remoteInfo = GrowingTextView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0937B07CD9913F192238AA966280CF43 /* Pods-GrowingTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrowingTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		116A0096DEE7587B0B9203174A4C54DA /* Pods-GrowingTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		16232753E9ED65C737B71A4FBF76F0B4 /* Pods-GrowingTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrowingTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C7EB20413D4AF9CDD6F0FCAAF44D411 /* Pods-GrowingTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrowingTextView_Example-umbrella.h"; sourceTree = "<group>"; };
-		2E987A86EE56C3D21C5C86149FA5E1F0 /* Pods-GrowingTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3789544738452D5BEC0A289C7F178FE0 /* GrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GrowingTextView.modulemap; sourceTree = "<group>"; };
-		3D17C0FA7CE8BA204D3C41E71A397304 /* GrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrowingTextView-dummy.m"; sourceTree = "<group>"; };
-		42FDC9BF44D793CC98A8D01FBFDBD3D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		47B21482D941436ADC86FA8C052CCA29 /* GrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrowingTextView.xcconfig; sourceTree = "<group>"; };
-		485356643AEE59AA0CB8CBAB7F0805DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FA8D318369E215C8CBDC9F0B7F3B919 /* GrowingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GrowingTextView.swift; sourceTree = "<group>"; };
-		51C08399B314BEF0F1473D8D58E355B9 /* Pods-GrowingTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrowingTextView_Example-dummy.m"; sourceTree = "<group>"; };
-		567DEF117628C89F81EE7A3F89980712 /* Pods-GrowingTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5BBE4A0583B65F4893C63F484CC3EB45 /* Pods-GrowingTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrowingTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		73355670421A71C92CD1145BF783FAE2 /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A23A95B489BDBFB60C33DA82FD10644 /* GrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-umbrella.h"; sourceTree = "<group>"; };
-		8069305D84B955D85F75D9E242CEFD65 /* Pods-GrowingTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GrowingTextView_Tests.modulemap"; sourceTree = "<group>"; };
-		8A5E5BA64A5A2A6CE420B91345BCBD29 /* Pods-GrowingTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrowingTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8D2506B93941797226487175CE7131C7 /* Pods_GrowingTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrowingTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3EF16D5303C68C6EC19D0BBE1B7960F /* Pods-GrowingTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrowingTextView_Tests-resources.sh"; sourceTree = "<group>"; };
-		B89553F26101397546D36FF2BA4DC0B3 /* Pods-GrowingTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GrowingTextView_Example.modulemap"; sourceTree = "<group>"; };
-		CC826FD9B986A8A800046CDCB6B62E40 /* Pods-GrowingTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrowingTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1A94A5C318914E0A22392CB542A89AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7D2B54406881A6CDE04C8CF015A883A /* Pods-GrowingTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrowingTextView_Tests-dummy.m"; sourceTree = "<group>"; };
-		E26BEAD43D9D6D9F8C787C15F8B0DA9F /* Pods-GrowingTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrowingTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E36B93F521104A22A121387AED8D9919 /* Pods-GrowingTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrowingTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7EAEBD31D024713D57D42E318EFA1B9 /* Pods-GrowingTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ED6E063BAAA715452A24D0EB7758C067 /* Pods_GrowingTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrowingTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8406B80BFA2505557F6AF266D0D888 /* GrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-prefix.pch"; sourceTree = "<group>"; };
-		FEF238D5F9C85CF7CCF4199270DE9ECE /* Pods-GrowingTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrowingTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		062AACD40C53643EB990907880D2ED3F /* Pods-GrowingTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C034710BF9BAA47C83411FD427ED93A /* GrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-prefix.pch"; sourceTree = "<group>"; };
+		0E9CCE355FD8E8B5EA0801509356B11A /* Pods-GrowingTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrowingTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		134494E5980F1A52C498D1C94A9B354C /* Pods-GrowingTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrowingTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		1761E010C4ED9E69E43D29B13870659B /* Pods-GrowingTextView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrowingTextView_Tests-Info.plist"; sourceTree = "<group>"; };
+		2AADDA3E492592997F31B5935D370B41 /* Pods-GrowingTextView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrowingTextView_Example-Info.plist"; sourceTree = "<group>"; };
+		3EAF74D7F1CFCD447F72093A76599E56 /* Pods_GrowingTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GrowingTextView_Example.framework; path = "Pods-GrowingTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE62CE58479D6EF55ACBBD23EDB158F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FED9FF47F23895877D4C43AB0EA35DF /* GrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrowingTextView-dummy.m"; sourceTree = "<group>"; };
+		5C99DE0AD48872E94A763C1F491DA7B2 /* GrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GrowingTextView.modulemap; sourceTree = "<group>"; };
+		5CDEEE5FAD1C2C3D2C5D3D890D43A92C /* GrowingTextView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GrowingTextView-Info.plist"; sourceTree = "<group>"; };
+		65C651B11D35CC245224D9BE9209B1FA /* Pods-GrowingTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrowingTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		67CF11B14A59788ED72B9627358FB25C /* Pods-GrowingTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrowingTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E37D6B49789262D93B0E316E8019E07 /* GrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrowingTextView.xcconfig; sourceTree = "<group>"; };
+		71B031E96EBE48EFBDD2D0AED5CD5AA2 /* Pods-GrowingTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrowingTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		72B6ECC360AFE0C1DE63E2CD711346F6 /* Pods-GrowingTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GrowingTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83EB8E78D5B8649F4AFAB2A337BC91A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8CFF5B392783B6FBBA30787342E40EC6 /* Pods-GrowingTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GrowingTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96FF503C1317690D6A4A61A3FF1FCCC4 /* Pods_GrowingTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GrowingTextView_Tests.framework; path = "Pods-GrowingTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		972CC073617F461D9A9F809EE8E379B7 /* Pods-GrowingTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrowingTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA7D05595329865BAA85B4D7E227273 /* Pods-GrowingTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1CC3DACB1D261F85BF8942C1F540317 /* Pods-GrowingTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GrowingTextView_Example.modulemap"; sourceTree = "<group>"; };
+		AFEAA982FFEBC1D0CC6436DB12589678 /* Pods-GrowingTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C946C6646ABDA0384BC3D863FEA10533 /* GrowingTextView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GrowingTextView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB5477C56C289C5F79B9B62874A28F0A /* Pods-GrowingTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GrowingTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		CE4EC7C0713D7F431C281772B137A2A2 /* Pods-GrowingTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrowingTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D024F5E367FD12B7D9004D67BCA67EE5 /* GrowingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrowingTextView.swift; path = Pod/Classes/GrowingTextView.swift; sourceTree = "<group>"; };
+		D79864AAA741237A5559CD2FE5065D67 /* Pods-GrowingTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GrowingTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D9A8C4EE25569096E3B5858ACCEF5EE6 /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrowingTextView.framework; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC99B715A5403A0A6D3D72AF35EB58FE /* Pods-GrowingTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GrowingTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E821A5B40972AE91884635239B93AB04 /* GrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		307C9207CDC621AE5DCDF91B2E001607 /* Frameworks */ = {
+		5695E3138355B85374F35224D515B172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A78D144C49E16F7B9E942D991838142 /* Foundation.framework in Frameworks */,
+				BB046B8B5B76C77C181DA03B25E9A66A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F7BE1397D2DCB63B58E65F359782F62 /* Frameworks */ = {
+		819ADBDB7736A3C6030F867E539C7568 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5628733A21610905CBB29941800CCBC5 /* Foundation.framework in Frameworks */,
+				D39C1B34AF2A34C2AD299D936FCF9664 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C62FEB311D3AFD0933F48E3BFA7E3DEF /* Frameworks */ = {
+		8D807A715EE7ADC635E3779C73B6E2EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				965AD054BFE27042F8BEFBA75C715F96 /* Foundation.framework in Frameworks */,
+				4A5A6515B37317B7FDEFB5A965059A26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		240F54CC9AFBE547981439EE99782842 /* Development Pods */ = {
+		0755C1A73C991FAC9BE94CD7BECCEB9B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C93B6706810B16621108ED8FE3463308 /* GrowingTextView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4144E8BAC3D8248154B4E7047B53C3AF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				932D373CBA5615AEBAB0FC89D82E0472 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		79CDC3553AEEA45BF22FEB29C0EF969F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73355670421A71C92CD1145BF783FAE2 /* GrowingTextView.framework */,
-				ED6E063BAAA715452A24D0EB7758C067 /* Pods_GrowingTextView_Example.framework */,
-				8D2506B93941797226487175CE7131C7 /* Pods_GrowingTextView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				240F54CC9AFBE547981439EE99782842 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				79CDC3553AEEA45BF22FEB29C0EF969F /* Products */,
-				E5EA1C4AF2D5732E4740B5EF37EA4ACA /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		871201EA6BC7E18F1E2020D739E71A96 /* Pods-GrowingTextView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				485356643AEE59AA0CB8CBAB7F0805DE /* Info.plist */,
-				8069305D84B955D85F75D9E242CEFD65 /* Pods-GrowingTextView_Tests.modulemap */,
-				CC826FD9B986A8A800046CDCB6B62E40 /* Pods-GrowingTextView_Tests-acknowledgements.markdown */,
-				16232753E9ED65C737B71A4FBF76F0B4 /* Pods-GrowingTextView_Tests-acknowledgements.plist */,
-				D7D2B54406881A6CDE04C8CF015A883A /* Pods-GrowingTextView_Tests-dummy.m */,
-				5BBE4A0583B65F4893C63F484CC3EB45 /* Pods-GrowingTextView_Tests-frameworks.sh */,
-				B3EF16D5303C68C6EC19D0BBE1B7960F /* Pods-GrowingTextView_Tests-resources.sh */,
-				0937B07CD9913F192238AA966280CF43 /* Pods-GrowingTextView_Tests-umbrella.h */,
-				2E987A86EE56C3D21C5C86149FA5E1F0 /* Pods-GrowingTextView_Tests.debug.xcconfig */,
-				567DEF117628C89F81EE7A3F89980712 /* Pods-GrowingTextView_Tests.release.xcconfig */,
-			);
-			name = "Pods-GrowingTextView_Tests";
-			path = "Target Support Files/Pods-GrowingTextView_Tests";
-			sourceTree = "<group>";
-		};
-		932D373CBA5615AEBAB0FC89D82E0472 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4FA8D318369E215C8CBDC9F0B7F3B919 /* GrowingTextView.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C93B6706810B16621108ED8FE3463308 /* GrowingTextView */ = {
-			isa = PBXGroup;
-			children = (
-				4144E8BAC3D8248154B4E7047B53C3AF /* Pod */,
-				E1FA28353C9550760F0F996FD3BFC726 /* Support Files */,
-			);
-			name = GrowingTextView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E1FA28353C9550760F0F996FD3BFC726 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3789544738452D5BEC0A289C7F178FE0 /* GrowingTextView.modulemap */,
-				47B21482D941436ADC86FA8C052CCA29 /* GrowingTextView.xcconfig */,
-				3D17C0FA7CE8BA204D3C41E71A397304 /* GrowingTextView-dummy.m */,
-				EE8406B80BFA2505557F6AF266D0D888 /* GrowingTextView-prefix.pch */,
-				7A23A95B489BDBFB60C33DA82FD10644 /* GrowingTextView-umbrella.h */,
-				D1A94A5C318914E0A22392CB542A89AC /* Info.plist */,
+				5C99DE0AD48872E94A763C1F491DA7B2 /* GrowingTextView.modulemap */,
+				6E37D6B49789262D93B0E316E8019E07 /* GrowingTextView.xcconfig */,
+				4FED9FF47F23895877D4C43AB0EA35DF /* GrowingTextView-dummy.m */,
+				5CDEEE5FAD1C2C3D2C5D3D890D43A92C /* GrowingTextView-Info.plist */,
+				0C034710BF9BAA47C83411FD427ED93A /* GrowingTextView-prefix.pch */,
+				E821A5B40972AE91884635239B93AB04 /* GrowingTextView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GrowingTextView";
 			sourceTree = "<group>";
 		};
-		E5EA1C4AF2D5732E4740B5EF37EA4ACA /* Targets Support Files */ = {
+		0FE28056E2EB446979AAE4D51C646AD9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F388D0B57D0C41CDC89D91808DC271B1 /* Pods-GrowingTextView_Example */,
-				871201EA6BC7E18F1E2020D739E71A96 /* Pods-GrowingTextView_Tests */,
+				C946C6646ABDA0384BC3D863FEA10533 /* GrowingTextView.podspec */,
+				3EE62CE58479D6EF55ACBBD23EDB158F /* LICENSE */,
+				83EB8E78D5B8649F4AFAB2A337BC91A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1934E94D9942DC35055246AA099ACFAB /* Pods-GrowingTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				71B031E96EBE48EFBDD2D0AED5CD5AA2 /* Pods-GrowingTextView_Tests.modulemap */,
+				72B6ECC360AFE0C1DE63E2CD711346F6 /* Pods-GrowingTextView_Tests-acknowledgements.markdown */,
+				8CFF5B392783B6FBBA30787342E40EC6 /* Pods-GrowingTextView_Tests-acknowledgements.plist */,
+				CB5477C56C289C5F79B9B62874A28F0A /* Pods-GrowingTextView_Tests-dummy.m */,
+				65C651B11D35CC245224D9BE9209B1FA /* Pods-GrowingTextView_Tests-frameworks.sh */,
+				1761E010C4ED9E69E43D29B13870659B /* Pods-GrowingTextView_Tests-Info.plist */,
+				D79864AAA741237A5559CD2FE5065D67 /* Pods-GrowingTextView_Tests-umbrella.h */,
+				AFEAA982FFEBC1D0CC6436DB12589678 /* Pods-GrowingTextView_Tests.debug.xcconfig */,
+				9EA7D05595329865BAA85B4D7E227273 /* Pods-GrowingTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GrowingTextView_Tests";
+			path = "Target Support Files/Pods-GrowingTextView_Tests";
+			sourceTree = "<group>";
+		};
+		26F746A09E5C120C4966B5AE468FC1FE /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D024F5E367FD12B7D9004D67BCA67EE5 /* GrowingTextView.swift */,
+				0FE28056E2EB446979AAE4D51C646AD9 /* Pod */,
+				0755C1A73C991FAC9BE94CD7BECCEB9B /* Support Files */,
+			);
+			name = GrowingTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3719197FA7BC8F493F309AFC4811D7EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F746A09E5C120C4966B5AE468FC1FE /* GrowingTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		81A5F4C8E506E51CB4B298CE3D890547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A8C4EE25569096E3B5858ACCEF5EE6 /* GrowingTextView.framework */,
+				3EAF74D7F1CFCD447F72093A76599E56 /* Pods_GrowingTextView_Example.framework */,
+				96FF503C1317690D6A4A61A3FF1FCCC4 /* Pods_GrowingTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABC4C64FB203DBBCE1099A2EDF683936 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5D70996DFA8691C3426129D79B3FEE5 /* Pods-GrowingTextView_Example */,
+				1934E94D9942DC35055246AA099ACFAB /* Pods-GrowingTextView_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F388D0B57D0C41CDC89D91808DC271B1 /* Pods-GrowingTextView_Example */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				42FDC9BF44D793CC98A8D01FBFDBD3D3 /* Info.plist */,
-				B89553F26101397546D36FF2BA4DC0B3 /* Pods-GrowingTextView_Example.modulemap */,
-				E26BEAD43D9D6D9F8C787C15F8B0DA9F /* Pods-GrowingTextView_Example-acknowledgements.markdown */,
-				E36B93F521104A22A121387AED8D9919 /* Pods-GrowingTextView_Example-acknowledgements.plist */,
-				51C08399B314BEF0F1473D8D58E355B9 /* Pods-GrowingTextView_Example-dummy.m */,
-				8A5E5BA64A5A2A6CE420B91345BCBD29 /* Pods-GrowingTextView_Example-frameworks.sh */,
-				FEF238D5F9C85CF7CCF4199270DE9ECE /* Pods-GrowingTextView_Example-resources.sh */,
-				2C7EB20413D4AF9CDD6F0FCAAF44D411 /* Pods-GrowingTextView_Example-umbrella.h */,
-				116A0096DEE7587B0B9203174A4C54DA /* Pods-GrowingTextView_Example.debug.xcconfig */,
-				E7EAEBD31D024713D57D42E318EFA1B9 /* Pods-GrowingTextView_Example.release.xcconfig */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3719197FA7BC8F493F309AFC4811D7EE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				81A5F4C8E506E51CB4B298CE3D890547 /* Products */,
+				ABC4C64FB203DBBCE1099A2EDF683936 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D70996DFA8691C3426129D79B3FEE5 /* Pods-GrowingTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A1CC3DACB1D261F85BF8942C1F540317 /* Pods-GrowingTextView_Example.modulemap */,
+				67CF11B14A59788ED72B9627358FB25C /* Pods-GrowingTextView_Example-acknowledgements.markdown */,
+				0E9CCE355FD8E8B5EA0801509356B11A /* Pods-GrowingTextView_Example-acknowledgements.plist */,
+				972CC073617F461D9A9F809EE8E379B7 /* Pods-GrowingTextView_Example-dummy.m */,
+				DC99B715A5403A0A6D3D72AF35EB58FE /* Pods-GrowingTextView_Example-frameworks.sh */,
+				2AADDA3E492592997F31B5935D370B41 /* Pods-GrowingTextView_Example-Info.plist */,
+				134494E5980F1A52C498D1C94A9B354C /* Pods-GrowingTextView_Example-umbrella.h */,
+				062AACD40C53643EB990907880D2ED3F /* Pods-GrowingTextView_Example.debug.xcconfig */,
+				CE4EC7C0713D7F431C281772B137A2A2 /* Pods-GrowingTextView_Example.release.xcconfig */,
 			);
 			name = "Pods-GrowingTextView_Example";
 			path = "Target Support Files/Pods-GrowingTextView_Example";
@@ -232,76 +226,79 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B10629E799FE1D92A0B5617AF2B73050 /* Headers */ = {
+		3980140A03E873091454908BEF07C654 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF531B2B2501B39068D8001BDED5B3A9 /* GrowingTextView-umbrella.h in Headers */,
+				08798AD6E421E2D92A8952C35F6C751C /* Pods-GrowingTextView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAA5C7C328E56C9D5B17A90E46CC956E /* Headers */ = {
+		690E6C38323E336FAE16F4323A42EF7A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192451B7AE354865F41AD4BB5C3C4A8C /* Pods-GrowingTextView_Tests-umbrella.h in Headers */,
+				22F8500327987A1CAF7FBD3BB634E4EF /* GrowingTextView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB5083BD33062BB290DCA4E22999BDF2 /* Headers */ = {
+		C0D0E8C9F28F9AF2B47D0732D43A7633 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				951EFCD9EC021B43E4B8CC6E087C4DF8 /* Pods-GrowingTextView_Example-umbrella.h in Headers */,
+				3989B9DF69854D1C99776DF7765D7E1B /* Pods-GrowingTextView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1337470D3533D5288D3734A53202D210 /* Pods-GrowingTextView_Tests */ = {
+		0A0075504CA589540C7D7ACCCE491098 /* Pods-GrowingTextView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDC88498217E4FD95D649D583447FBF9 /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Tests" */;
+			buildConfigurationList = 49D9531E5D15C0A86673B8FD5D4E1F42 /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Tests" */;
 			buildPhases = (
-				90B8E7E08394708EA52C275A3939B5F5 /* Sources */,
-				7F7BE1397D2DCB63B58E65F359782F62 /* Frameworks */,
-				DAA5C7C328E56C9D5B17A90E46CC956E /* Headers */,
+				C0D0E8C9F28F9AF2B47D0732D43A7633 /* Headers */,
+				E4EB85547128A79228194E2E64A420A5 /* Sources */,
+				8D807A715EE7ADC635E3779C73B6E2EB /* Frameworks */,
+				6B554959E88992DAED41BE423C4CF2F9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F60DEA90A81DC8646475CFB381ECEC80 /* PBXTargetDependency */,
+				4734C3B41016CDDF781C1A115F7B286C /* PBXTargetDependency */,
 			);
 			name = "Pods-GrowingTextView_Tests";
 			productName = "Pods-GrowingTextView_Tests";
-			productReference = 8D2506B93941797226487175CE7131C7 /* Pods_GrowingTextView_Tests.framework */;
+			productReference = 96FF503C1317690D6A4A61A3FF1FCCC4 /* Pods_GrowingTextView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9F2D5A87671912191FCDF73CF0C45028 /* Pods-GrowingTextView_Example */ = {
+		303C1372E482DE0E9BB3553B5B6F0C62 /* Pods-GrowingTextView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 623351B506F7AE1A26A61088E29AF8FC /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Example" */;
+			buildConfigurationList = AF0CD9171F77FB89C93E1C26A7585DC2 /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Example" */;
 			buildPhases = (
-				2DADE3E3EDFDA5AAC0F250372D937453 /* Sources */,
-				C62FEB311D3AFD0933F48E3BFA7E3DEF /* Frameworks */,
-				EB5083BD33062BB290DCA4E22999BDF2 /* Headers */,
+				3980140A03E873091454908BEF07C654 /* Headers */,
+				C0A5177698B08B2DDCF829175E39C57C /* Sources */,
+				819ADBDB7736A3C6030F867E539C7568 /* Frameworks */,
+				4B578EEFB20CEDB49BF57FF2C8CBF779 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F64585178FDDF66ADB966DED263D356 /* PBXTargetDependency */,
+				2E192E1655F7A48E615D68AEC6B9C351 /* PBXTargetDependency */,
 			);
 			name = "Pods-GrowingTextView_Example";
 			productName = "Pods-GrowingTextView_Example";
-			productReference = ED6E063BAAA715452A24D0EB7758C067 /* Pods_GrowingTextView_Example.framework */;
+			productReference = 3EAF74D7F1CFCD447F72093A76599E56 /* Pods_GrowingTextView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C985E23F7AB71D5F7A81CD6FCE03D15A /* GrowingTextView */ = {
+		3B7A784FCDFCE45FAD36271DDFFEBEAF /* GrowingTextView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2BDA2ABB2CF5A7ED3815FA98DDC90D3 /* Build configuration list for PBXNativeTarget "GrowingTextView" */;
+			buildConfigurationList = 615463DE49132089EE256DAD076FE6AA /* Build configuration list for PBXNativeTarget "GrowingTextView" */;
 			buildPhases = (
-				FCEFDB28A36D4B5D329CC397ACE4445D /* Sources */,
-				307C9207CDC621AE5DCDF91B2E001607 /* Frameworks */,
-				B10629E799FE1D92A0B5617AF2B73050 /* Headers */,
+				690E6C38323E336FAE16F4323A42EF7A /* Headers */,
+				E0EC8141B1465BF0FD471DD23D551DF2 /* Sources */,
+				5695E3138355B85374F35224D515B172 /* Frameworks */,
+				AAE32368891AA583E7AEEB1650941F78 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -309,107 +306,123 @@
 			);
 			name = GrowingTextView;
 			productName = GrowingTextView;
-			productReference = 73355670421A71C92CD1145BF783FAE2 /* GrowingTextView.framework */;
+			productReference = D9A8C4EE25569096E3B5858ACCEF5EE6 /* GrowingTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1000;
-				TargetAttributes = {
-					1337470D3533D5288D3734A53202D210 = {
-						LastSwiftMigration = 0800;
-					};
-					9F2D5A87671912191FCDF73CF0C45028 = {
-						LastSwiftMigration = 0800;
-					};
-					C985E23F7AB71D5F7A81CD6FCE03D15A = {
-						LastSwiftMigration = 0900;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 79CDC3553AEEA45BF22FEB29C0EF969F /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81A5F4C8E506E51CB4B298CE3D890547 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C985E23F7AB71D5F7A81CD6FCE03D15A /* GrowingTextView */,
-				9F2D5A87671912191FCDF73CF0C45028 /* Pods-GrowingTextView_Example */,
-				1337470D3533D5288D3734A53202D210 /* Pods-GrowingTextView_Tests */,
+				3B7A784FCDFCE45FAD36271DDFFEBEAF /* GrowingTextView */,
+				303C1372E482DE0E9BB3553B5B6F0C62 /* Pods-GrowingTextView_Example */,
+				0A0075504CA589540C7D7ACCCE491098 /* Pods-GrowingTextView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4B578EEFB20CEDB49BF57FF2C8CBF779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B554959E88992DAED41BE423C4CF2F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE32368891AA583E7AEEB1650941F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		2DADE3E3EDFDA5AAC0F250372D937453 /* Sources */ = {
+		C0A5177698B08B2DDCF829175E39C57C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA12E2E45724DB01B6FA8D0CCCD5DB9 /* Pods-GrowingTextView_Example-dummy.m in Sources */,
+				F750646BE2E5A0CE46C3E821B909650D /* Pods-GrowingTextView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B8E7E08394708EA52C275A3939B5F5 /* Sources */ = {
+		E0EC8141B1465BF0FD471DD23D551DF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36F02A1589714FCA1E834BA0CFDC10A3 /* Pods-GrowingTextView_Tests-dummy.m in Sources */,
+				42C957BFD50D0F4547102AFCDC808009 /* GrowingTextView-dummy.m in Sources */,
+				8B9C70E39B013481B37D63F5B805438A /* GrowingTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCEFDB28A36D4B5D329CC397ACE4445D /* Sources */ = {
+		E4EB85547128A79228194E2E64A420A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2041ED91135EA47F86D5884833BEAFAF /* GrowingTextView-dummy.m in Sources */,
-				139F0EFBF31B8FB9A889DAB6E47B7755 /* GrowingTextView.swift in Sources */,
+				39FDF750E7BED5216B254243BC64D7DB /* Pods-GrowingTextView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8F64585178FDDF66ADB966DED263D356 /* PBXTargetDependency */ = {
+		2E192E1655F7A48E615D68AEC6B9C351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GrowingTextView;
-			target = C985E23F7AB71D5F7A81CD6FCE03D15A /* GrowingTextView */;
-			targetProxy = 087A3CF316614F79514ECFA8D6AC9AD4 /* PBXContainerItemProxy */;
+			target = 3B7A784FCDFCE45FAD36271DDFFEBEAF /* GrowingTextView */;
+			targetProxy = 3C9053446A0D64DEB9121816E58E55E2 /* PBXContainerItemProxy */;
 		};
-		F60DEA90A81DC8646475CFB381ECEC80 /* PBXTargetDependency */ = {
+		4734C3B41016CDDF781C1A115F7B286C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GrowingTextView;
-			target = C985E23F7AB71D5F7A81CD6FCE03D15A /* GrowingTextView */;
-			targetProxy = 4146DA148A6AE80DE827CB7B525AEC09 /* PBXContainerItemProxy */;
+			target = 3B7A784FCDFCE45FAD36271DDFFEBEAF /* GrowingTextView */;
+			targetProxy = E80570B0DCB1960104F2D89F78F1E094 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -417,175 +430,18 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		170055D402731428C8E26BDA8517A92D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7EAEBD31D024713D57D42E318EFA1B9 /* Pods-GrowingTextView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Example/Pods-GrowingTextView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GrowingTextView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54D5BF1AD456C6E6FBD32B78A5868DF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 116A0096DEE7587B0B9203174A4C54DA /* Pods-GrowingTextView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Example/Pods-GrowingTextView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GrowingTextView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7978401945C9166D2F405019F3936CCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E987A86EE56C3D21C5C86149FA5E1F0 /* Pods-GrowingTextView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Pods-GrowingTextView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GrowingTextView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -594,113 +450,276 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D86F0465EE5A950EBDAC4920F3D45CD4 /* Release */ = {
+		3E5534F9EC78406A954BB19D58DBA380 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 567DEF117628C89F81EE7A3F89980712 /* Pods-GrowingTextView_Tests.release.xcconfig */;
+			baseConfigurationReference = 6E37D6B49789262D93B0E316E8019E07 /* GrowingTextView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GrowingTextView/GrowingTextView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
+				PRODUCT_MODULE_NAME = GrowingTextView;
+				PRODUCT_NAME = GrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		619655F2394C9953483CAFCEC65E4DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEAA982FFEBC1D0CC6436DB12589678 /* Pods-GrowingTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Pods-GrowingTextView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Pods-GrowingTextView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GrowingTextView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		857F53E6C6544374BE5176EF5642B21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E37D6B49789262D93B0E316E8019E07 /* GrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GrowingTextView/GrowingTextView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
+				PRODUCT_MODULE_NAME = GrowingTextView;
+				PRODUCT_NAME = GrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E000FCCEBBEBBA9FFEC595D6663520E0 /* Release */ = {
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47B21482D941436ADC86FA8C052CCA29 /* GrowingTextView.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0C6D2189E2B7D8A8598965CA7BCD833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4EC7C0713D7F431C281772B137A2A2 /* Pods-GrowingTextView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GrowingTextView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Example/Pods-GrowingTextView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GrowingTextView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Example/Pods-GrowingTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FF2D6F617884921F19F58ED5C0B67B0B /* Debug */ = {
+		EB7A5A2AE98C5F2315CFE067A9F059BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47B21482D941436ADC86FA8C052CCA29 /* GrowingTextView.xcconfig */;
+			baseConfigurationReference = 9EA7D05595329865BAA85B4D7E227273 /* Pods-GrowingTextView_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GrowingTextView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Pods-GrowingTextView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GrowingTextView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Tests/Pods-GrowingTextView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC7BF8D696C915AD27B0B83ED5D5310A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062AACD40C53643EB990907880D2ED3F /* Pods-GrowingTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GrowingTextView_Example/Pods-GrowingTextView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GrowingTextView_Example/Pods-GrowingTextView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -710,43 +729,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		623351B506F7AE1A26A61088E29AF8FC /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Example" */ = {
+		49D9531E5D15C0A86673B8FD5D4E1F42 /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54D5BF1AD456C6E6FBD32B78A5868DF7 /* Debug */,
-				170055D402731428C8E26BDA8517A92D /* Release */,
+				619655F2394C9953483CAFCEC65E4DC9 /* Debug */,
+				EB7A5A2AE98C5F2315CFE067A9F059BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2BDA2ABB2CF5A7ED3815FA98DDC90D3 /* Build configuration list for PBXNativeTarget "GrowingTextView" */ = {
+		615463DE49132089EE256DAD076FE6AA /* Build configuration list for PBXNativeTarget "GrowingTextView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF2D6F617884921F19F58ED5C0B67B0B /* Debug */,
-				E000FCCEBBEBBA9FFEC595D6663520E0 /* Release */,
+				3E5534F9EC78406A954BB19D58DBA380 /* Debug */,
+				857F53E6C6544374BE5176EF5642B21B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDC88498217E4FD95D649D583447FBF9 /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Tests" */ = {
+		AF0CD9171F77FB89C93E1C26A7585DC2 /* Build configuration list for PBXNativeTarget "Pods-GrowingTextView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7978401945C9166D2F405019F3936CCC /* Debug */,
-				D86F0465EE5A950EBDAC4920F3D45CD4 /* Release */,
+				FC7BF8D696C915AD27B0B83ED5D5310A /* Debug */,
+				B0C6D2189E2B7D8A8598965CA7BCD833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
